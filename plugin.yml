@@ -1,0 +1,7 @@
+name: CobraCTF
+main: us.drome.CobraCTF.CobraCTF
+version: 0.1
+author: TheAcademician
+description: An implementation of Capture the Flag for the bukkit minecraft server.
+
+commands:

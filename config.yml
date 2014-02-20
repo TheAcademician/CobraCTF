@@ -1,0 +1,47 @@
+settings:
+  match-time: 30
+  capture-win: 3
+  min-players: 6
+  max-players: 12
+  respawn-delay: 10
+  flag-respawn-delay: 5
+  flag-auto-return: 30
+
+announcements:
+  prestart: "A match of CTF is ready to begin. To get to the arena, use /ctf-tp"
+  countdown: "This match of CTF begins in 30 seconds! Use /ctf-tp to get to the arena!"
+  match-start: "$TEAM versus $TEAM begins NOW!"
+  match-half: "The match is half over! $TIME minutes to go!"
+  match-min: "This match of CTF will end in one minute!"
+  match-end: "$TEAM has won this match of CTF! Score: $WIN to $LOSE"
+  match-end-draw: "This match of CTF is a draw! Congrats to both teams!"
+  flag-pickup: "$PLAYER has taken $TEAM's flag!"
+  flag-drop: "The $TEAM's flag has been dropped!"
+  flag-capture: "$TEAM's flag has been captured by $PLAYER!"
+  flag-return: "$TEAM's flag has been returned by $PLAYER!"
+  flag-return-auto: "$TEAMS's flag has been returned!"
+  flag-respawn: "The flags have respawned!"
+  player-join: "$PLAYER has joined the match on $TEAM!"
+  player-leave: "$PLAYER of $TEAM has left the match!"
+  
+teams:
+  team-1: "Blue Team"
+    armor:
+      helmet: LEATHER_HELMET:BLUE
+      chest: LEATHER_CHESTPIECE:BLUE
+      pants: LEATHER_LEGGINGS:BLUE
+      boots: LEATHER_BOOTS:BLUE
+    inventory:
+    - STONE_SWORD
+    - BOW
+    - ARROWS:64
+  team-2: "Red Team"
+    armor:
+        helmet: LEATHER_HELMET:RED
+        chest: LEATHER_CHESTPIECE:RED
+        pants: LEATHER_LEGGINGS:RED
+        boots: LEATHER_BOOTS:RED
+    inventory:
+    - STONE_SWORD
+    - BOW
+    - ARROWS:64
