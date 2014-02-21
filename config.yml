@@ -32,9 +32,9 @@ teams:
       pants: LEATHER_LEGGINGS:BLUE
       boots: LEATHER_BOOTS:BLUE
     inventory:
-    - STONE_SWORD
-    - BOW
-    - ARROWS:64
+      - STONE_SWORD
+      - BOW
+      - ARROWS:64
   team-2: "Red Team"
     armor:
         helmet: LEATHER_HELMET:RED
@@ -45,3 +45,32 @@ teams:
     - STONE_SWORD
     - BOW
     - ARROWS:64
+    
+buffs:
+  weapons:
+    bow:
+      - ARROW_DAMAGE:2
+      - ARROW_FIRE:1
+      - ARROW_INFINITY:1
+      - ARROW_KNOCKBACK:1
+      - DURABILITY:2
+    sword:
+      - DAMAGE_ALL:2
+      - DURABILITY:2
+      - FIRE_ASPECT:1
+      - KNOCKBACK:1
+  armor:
+    - DURABILITY:2
+    - PROTECTION_ENVIRONMENTAL:2
+    - PROTECTION_FIRE:2
+    - PROTECTION_PROJECTILE:2
+  effects:
+    - DAMAGE_RESISTANCE:30:2
+    - FIRE_RESISTANCE:30:2
+    - HEAL:0:2
+    - HEALTH_BOOST:30:2
+    - INCREASE_DAMAGE:30:2
+    - INVISIBILITY:30:1
+    - NIGHT_VISION:30:1
+    - REGENERATION:30:2
+    - SPEED:30:1

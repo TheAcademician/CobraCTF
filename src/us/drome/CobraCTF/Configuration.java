@@ -86,7 +86,7 @@ public class Configuration {
 		for (ItemStack piece : armor) {
 			piece = new ItemStack(Material.matchMaterial(plugin.getConfig().getString(team + ".armor.chest").split(":")[0]));
 			LeatherArmorMeta armorMeta = (LeatherArmorMeta) piece.getItemMeta();
-			//armorMeta.setColor(plugin.getConfig().getString(team + ".armor.chest").split(":")[1]);
+			//armorMeta.setColor(Color.valueOf(plugin.getConfig().getString(team + ".armor.chest").split(":")[1]));
 		}
 		
 		return armor;
